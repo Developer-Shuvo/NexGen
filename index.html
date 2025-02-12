@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" href="./images/Vector.png">
 
     <!-- Link with external Css-File -->
-    <link rel="stylesheet" href="./nexgen.css">
+    <link rel="stylesheet" href="./nexGen.css">
 
     <!-- tailwind script -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
@@ -28,7 +28,7 @@
 <body>
 
     <!--------------- Navbar Section ---------------->
-    <div class="relative bg-gray-300">
+    <div class="fixed top-0 left-0 right-0 z-10 bg-gray-300">
 
 
         <div class="flex justify-between px-4 py-4 mx-auto max-w-screen-2xl">
@@ -67,7 +67,7 @@
 
         </div>
         <!-- Line -->
-        <div class="max-w-full border border-gray-400"></div>
+        <!-- <div class="max-w-full border border-gray-400"></div> -->
 
     </div>
 
@@ -126,7 +126,7 @@
         </div>
 
         <!------------------------ Card Section ------------------------->
-        <div class="flex justify-center space-x-8 mb-[112px]">
+        <div class="flex items-center justify-center mx-auto gap-8 mb-[112px]">
             <!-- Card 1 -->
             <div class="border h-[514px] w-[416px] p-2 items-center justify-center text-center rounded-md">
                 <img class="w-[100%] h-[240px] " src="./images/img 1.jpg" alt="">
@@ -188,6 +188,26 @@
 
 
     </main>
+
+    <!------------------------- Car image ------------------------->
+    <section class="mb-[112px]">
+        <div class="bg-car">
+
+            <div class="flex flex-col justify-start mx-auto max-w-screen-2xl py-[112px] px-[]">
+                <h1 class="text-5xl font-bold text-white">Ready to Elevate Your Brand?</h1>
+                <p class="mt-6 text-lg text-white">Contact us today to discuss how we can bring your vision to life and start your project.</p>
+
+                <!-- Button -->
+                <div class="flex pt-8 mt-8 space-x-4">
+                    <button class="bg-white font-[DM Sans] text-black h-[48px] w-[135px] cursor-pointer rounded">Get Started</button>
+                    <button class=" border font-[DM sans] text-white h-[48px] w-[135px] cursor-pointer rounded">Learn More</button>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
 
 
 
